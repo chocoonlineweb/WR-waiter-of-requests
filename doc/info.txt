@@ -1,8 +1,8 @@
-Tutorial de passpor, cors y angular (Espa�ol)
+Tutorial de passpor, cors y angular (Espa�ol)
 https://www.youtube.com/watch?v=IUbpifsnLm8&t=112s
 
 
-Tutorial notification 
+Tutorial notification
 https://www.youtube.com/watch?v=YYmQ0DhIRnc&list=PLEHx9BVUzI6Yp0vOYCV2nNjO49PkWlPvi
 
 Tutorian de passpor (Ingles)
@@ -17,3 +17,26 @@ https://github.com/barryvdh/laravel-cors
 
 Repositorio Angular material
 https://github.com/angular/material
+
+° Agregamos la interfac de MustVerifyEmail en el Model User
+  class User extends Authenticatable add =>
+  implements MustVerifyEmail
+
+° Configuracion de Auth::routes(['verify' => true])
+  en archivo route de web
+
+° Protecion de ruta por verificacón ->middleware('verified')
+  en el archivo de route
+
+° Edicion de vista de verificación de email.
+
+° Modificar controlador de verificacion
+  app/Http/Controllers/Auth/VerificationController
+  para la ruta home
+
+° Agregamos el archivo de traducción de ingle a español
+  es.json
+
+° Edicion de MustVerifyEmail para los mensajes de verificacion pero no en el
+  si no en es.json
+  vendor/laravel/framework/src/Illuminate/Contracts/Auth/MustVerifyEmail.php
