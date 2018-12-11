@@ -1,0 +1,19 @@
+Tutorial de passpor, cors y angular (Español)
+https://www.youtube.com/watch?v=IUbpifsnLm8&t=112s
+
+
+Tutorial notification 
+https://www.youtube.com/watch?v=YYmQ0DhIRnc&list=PLEHx9BVUzI6Yp0vOYCV2nNjO49PkWlPvi
+
+Tutorian de passpor (Ingles)
+https://itsolutionstuff.com/post/laravel-5-how-to-create-api-authentication-using-passport-example.html
+
+
+Repositorio spatie/laravel-cors
+https://github.com/spatie/laravel-cors
+
+Repositorio barryvdh/laravel-cors
+https://github.com/barryvdh/laravel-cors
+
+Repositorio Angular material
+https://github.com/angular/material
