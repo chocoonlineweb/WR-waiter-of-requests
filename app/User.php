@@ -27,7 +27,7 @@ class User extends Authenticatable implements MustVerifyEmail
     protected $hidden = [
         'password', 'remember_token',
     ];
-    
+
     /**
      * Send the email verification notification.
      *
@@ -35,6 +35,6 @@ class User extends Authenticatable implements MustVerifyEmail
      */
     public function sendEmailVerificationNotification()
     {
-        $this->notify(new Notifications\VerifyEmail);
+        $this->notify(new \Illuminate\Auth\Notifications\VerifyEmail);
     }
 }
