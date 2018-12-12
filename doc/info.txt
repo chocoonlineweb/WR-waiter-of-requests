@@ -1,6 +1,9 @@
-Tutorial de passpor, cors y angular (Espa�ol)
+Tutorial de passpor, cors y angular (Español)
 https://www.youtube.com/watch?v=IUbpifsnLm8&t=112s
 
+
+Tutorial de activacion y configuracion de MustVerifyEmail
+https://www.youtube.com/watch?v=kJRQ8-cMxyw&t=40s
 
 Tutorial notification
 https://www.youtube.com/watch?v=YYmQ0DhIRnc&list=PLEHx9BVUzI6Yp0vOYCV2nNjO49PkWlPvi
