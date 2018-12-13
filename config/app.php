@@ -175,7 +175,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         // CONFIGURACION DE PAQUETES EXTERNOS
-        Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
+        //error para veciones mayores a  5.4 Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
+        Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
         Barryvdh\Cors\ServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Collective\Remote\RemoteServiceProvider::class,
