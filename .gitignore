@@ -1,4 +1,5 @@
 vendor/
+app/PhpQR/
 node_modules/
 npm-debug.log
 
