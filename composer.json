@@ -16,6 +16,7 @@
         "laravel/socialite": "^3.2",
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.4.0",
+        "laravelcollective/remote": "^5.7",
         "predis/predis": "^1.1",
         "tymon/jwt-auth": "^0.5.12"
     },
