@@ -17,12 +17,12 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email')->unique();
+            $table->string('avatar');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('api_token', 60)->nullable()->unique();
             $table->string('qr');
             $table->integer('count');
-            $table->boolean('confirmed');
             $table->enum('status', ['enabled','disabled'])->default('disabled');
             $table->enum('socialLogin', ['google','facebook', 'twitter', 'email'])->default('email');
             $table->rememberToken();
